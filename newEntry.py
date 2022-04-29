@@ -33,7 +33,8 @@ def createEntry():
 	def addAccountFrame():
 		drop = OptionMenu(frame, clicked , *arr )
 		drop.pack()
-		pass
+		NewEntry = Entry(frame, width=30)
+
 	
 
 	button = Button(frame,  text = "click Me" , command = addAccountFrame ).pack()
